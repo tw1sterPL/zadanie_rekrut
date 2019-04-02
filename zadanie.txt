@@ -1,0 +1,13 @@
+Przy kodowaniu proœba o:
+
+- wykonanie w RWD,
+- u¿ycie LESS lub SASS,
+- u¿ycie Grunt.js, Gulp.js lub Webpack,
+- dostosowanie obrazków do wyœwietlaczy retina / hdpi,
+- modu³owy kod, tak ¿eby np. bia³e box’y mo¿na by³o wykorzystaæ w ró¿nych miejscach na stronie,
+- zachowanie prawid³owej struktury nag³ówków z punktu widzenia SEO,
+- kompatybilnoœæ z IE10+, Android Browser 4.4+ oraz najnowszymi wersjami Chrome, Firefox, Opera, Safari, Edge.
+- wykonanie najlepiej jak potrafisz
+
+Dobór frameworków czy bibliotek pozostawiamy Tobie. Nic nie narzucamy, nic nie zabraniamy. Postaraj siê jednak aby ich dobór by³ jak najbardziej racjonalny i uzasadniony dla przesy³anego projektu.
+Zadanie prosimy odes³aæ mailem w formie pliku .zip
