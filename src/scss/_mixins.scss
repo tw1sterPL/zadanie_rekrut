@@ -1,0 +1,55 @@
+// CENTERING VERTICAL, HORIZONTAL, BOTH
+
+@mixin center($position) {
+  // position: absolute;
+
+  @if $position=='vertical' {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  @else if $position=='horizontal' {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+  }
+
+  @else if $position=='both' {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+// MEDIA QUERIES DESKTOP > MOBILE
+
+@mixin screen($media) {
+  @if $media==xs {
+    @media only screen and (max-width: 576px) {
+      @content;
+    }
+  }
+
+  @if $media==sm {
+    @media only screen and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @else if $media==md {
+    @media only screen and (max-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $media==lg {
+    @media only screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+}

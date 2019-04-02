@@ -1,0 +1,17 @@
+// HEADER
+
+.main-header {
+    position: relative;
+    max-width: 1920px;
+    width: 100%;
+    height: 84px;
+}
+
+.logo-wrapper {
+    position: absolute;
+    left: 19.5%;
+    @include center('vertical');
+    @include screen(sm){
+        @include center('both');
+    }
+}
